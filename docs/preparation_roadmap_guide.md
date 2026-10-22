@@ -28,25 +28,14 @@ The team has onshore/offshore coverage, weekly on-call rotation, emergency chang
 
 The following weights are my suggested preparation priorities, not an official CIBC scoring rubric.
 
-Incident management and problem management
-
-30%
-
-Monitoring, Dynatrace, Kibana and Splunk
-
-25%
-
-Communication, conflict and stakeholder management
-
-20%
-
-CI/CD, certificates and Azure fundamentals
-
-15%
-
-Banking reliability mindset and AI anomaly detection
-
-10%
+| Preparation Area | Priority Weight |
+|---|---:|
+| Incident management and problem management | 30% |
+| Monitoring, Dynatrace, Kibana and Splunk | 25% |
+| Communication, conflict and stakeholder management | 20% |
+| CI/CD, certificates and Azure fundamentals | 15% |
+| Banking reliability mindset and AI anomaly detection | 10% |
+| **Total** | **100%** |
 
 Key insight: A candidate who can explain the complete lifecycle of a banking production incident, including detection, communication, recovery, and prevention, will be better prepared for this interview than someone who only memorizes AWS or Kubernetes terminology.
 
@@ -157,49 +146,17 @@ This is the highest-priority study day because the interviewer spent considerabl
 
 ## Step 1: Memorize the incident lifecycle
 
-Production incident response workflow
+#### Production Incident Response Workflow
 
-1
-
-Detect
-
-Monitoring alert or customer report
-
-2
-
-Assess impact
-
-Which customers, services, and transactions?
-
-3
-
-Classify and escalate
-
-Assign severity and engage the right teams
-
-4
-
-Investigate
-
-Review metrics, logs, dependencies, and changes
-
-5
-
-Mitigate
-
-Restore service safely
-
-6
-
-Validate recovery
-
-Confirm customer transactions are successful
-
-7
-
-RCA and prevention
-
-Document causes and track corrective actions
+| Step | Action | Focus |
+|---:|---|---|
+| 1 | **Detect** | Monitoring alert or customer report |
+| 2 | **Assess impact** | Which customers, services, and transactions? |
+| 3 | **Classify and escalate** | Assign severity and engage the right teams |
+| 4 | **Investigate** | Review metrics, logs, dependencies, and changes |
+| 5 | **Mitigate** | Restore service safely |
+| 6 | **Validate recovery** | Confirm customer transactions are successful |
+| 7 | **RCA and prevention** | Document causes and track corrective actions |
 
 Memorize this sequence until it becomes automatic. It can answer several different interview questions.
 
@@ -267,25 +224,13 @@ Monitoring tells you something is wrong.
 
 Observability helps you understand what is wrong and why.
 
-Learn the three pillars:
+### The Three Pillars
 
-Metrics
-
-What is happening?
-
-Error rate, latency, traffic
-
-Logs
-
-What happened?
-
-Errors, exceptions, events
-
-Traces
-
-Where did it happen?
-
-Request journey across services
+| Pillar | Key Question | Examples |
+|---|---|---|
+| **Metrics** | What is happening? | Error rate, latency, traffic |
+| **Logs** | What happened? | Errors, exceptions, events |
+| **Traces** | Where did it happen? | Request journey across services |
 
 ## Step 2: Understand the tools actually discussed
 
@@ -306,29 +251,12 @@ The candidate should understand what each tool does and when to use it, without 
 
 ## Step 3: Learn the four golden signals
 
-Latency
-
-How long requests take
-
-Login takes 12 seconds
-
-Traffic
-
-How many requests arrive
-
-Transfers drop from 1,000 to 100
-
-Errors
-
-How often requests fail
-
-5% of payments fail
-
-Saturation
-
-How close a resource is to its limit
-
-Database connection pool exhausted
+| Signal | Meaning | Example |
+|---|---|---|
+| **Latency** | How long requests take | Login takes 12 seconds |
+| **Traffic** | How many requests arrive | Transfers drop from 1,000 to 100 |
+| **Errors** | How often requests fail | 5% of payments fail |
+| **Saturation** | How close a resource is to its limit | Database connection pool exhausted |
 
 ## Step 4: Learn SLIs, SLOs, and SLAs
 
@@ -666,69 +594,18 @@ Practice readiness score
 
 # 0/100
 
-Self-rated, not a hiring prediction
+*Self-rated, not a hiring prediction.*
 
-Can explain ARE and Tier 1 banking support
+| Skill | Not Ready | Basic | Good | Confident |
+|---|:---:|:---:|:---:|:---:|
+| Can explain ARE and Tier 1 banking support | [ ] | [ ] | [ ] | [ ] |
+| Can describe incident response end to end | [ ] | [ ] | [ ] | [ ] |
+| Understands monitoring tools and business metrics | [ ] | [ ] | [ ] | [ ] |
+| Can explain postmortem and problem management | [ ] | [ ] | [ ] | [ ] |
+| Can handle conflict and stakeholder communication | [ ] | [ ] | [ ] | [ ] |
+| Can explain CI/CD and certificate fundamentals | [ ] | [ ] | [ ] | [ ] |
 
-Not ready
-
-Basic
-
-Good
-
-Confident
-
-Can describe incident response end to end
-
-Not ready
-
-Basic
-
-Good
-
-Confident
-
-Understands monitoring tools and business metrics
-
-Not ready
-
-Basic
-
-Good
-
-Confident
-
-Can explain postmortem and problem management
-
-Not ready
-
-Basic
-
-Good
-
-Confident
-
-Can handle conflict and stakeholder communication
-
-Not ready
-
-Basic
-
-Good
-
-Confident
-
-Can explain CI/CD and certificate fundamentals
-
-Not ready
-
-Basic
-
-Good
-
-Confident
-
-Focus first on the incident lifecycle, monitoring fundamentals, and communication scenarios.
+> **Preparation Focus:** Focus first on the incident lifecycle, monitoring fundamentals, and communication scenarios.
 
 ## The five principles to remember in the interview
 
